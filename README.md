@@ -17,14 +17,17 @@ The file named "users.txt" contains the names of the users.
 In this file there should be a symbol that splits the usernames.
 The default symbol is '\n'.
 It is possible to change this symbol with something such as ',' by using the following code:
+
 python cli.py --cookies cookies.txt --Users users.txt , --postPath post.json --profilePath prof.json
 
 It is necessary to get the cookies of the browser in a txt file as argument.
 
 It is also possible to only scrape the profile of the users:
+
 python cli.py --cookies cookies.txt --Users users.txt --profilePath prof.json
 
 It is also possible to only scrape the posts of the users:
+
 python cli.py --cookies cookies.txt --Users users.txt --postPath post.json
 
 
