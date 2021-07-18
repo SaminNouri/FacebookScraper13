@@ -1,6 +1,6 @@
 # FacebookScraper:
 
-requirements:
+requirements:\\
 1- pip install pymongo
 2- pip install facebook-scraper
 
