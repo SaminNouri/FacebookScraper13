@@ -18,7 +18,7 @@ In this file there should be a symbol that splits the usernames.<br />
 The default symbol is '\n'.<br />
 It is possible to change this symbol with something such as ',' by using the following code:
 ```
-python cli.py --cookies cookies.txt --Users users.txt , --postPath post.json --profilePath prof.json --outputPath Output.json
+python cli.py --cookies cookies.txt --Users users.txt --splitter , --postPath post.json --profilePath prof.json --outputPath Output.json
 ```
 It is necessary to get the cookies of the browser in a txt file as argument.
 
